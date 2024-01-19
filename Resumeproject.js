@@ -1,7 +1,7 @@
 var navmenutags = document.querySelectorAll('.nav-menu a');
 for (i=0; i<navmenutags.length; i++){
     navmenutags[i].addEventListener('click',function(event){
-        event.preventDefault();
+        // event.preventDefault();
         var targetsectionID = this.textContent.trim().toLowercase();
         var targetSection = document.getElementById(targetsectionID);
         console.log(targetSection);
