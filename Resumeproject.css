@@ -9,7 +9,7 @@ body {
 #body-header{
 
      height: 65vh; 
-     background-image: url(macbook_mouse.jpg);   
+     background-image: url(resume_background_img.jpg);   
      background-size: cover;
      background-position: center;
 	background-attachment: fixed;
@@ -58,7 +58,7 @@ body {
 }
 /*header icons*/
 .social-icons li a i{
-	color: : red;
+	color:  #fffdfd;
 	padding: 10px;
 	font-size: 1.5rem;
 	border-radius: 50%;
@@ -288,12 +288,22 @@ background-color: white;
 
 
 
-.timeline-traveler{
+ .timeline-traveler {
 	position: sticky;
 	top: 50%;
 	transform: rotate(90deg);
 	z-index: 2;
 }
+
+
+ .timeline-traveler1 {
+	position: sticky;
+	top: 50%;
+	transform: rotate(90deg);
+	z-index: 2;
+	
+}
+
 
 .timeline-box:nth-child(2n+1)::after{
 	content: '';
@@ -369,6 +379,14 @@ background-color: white;
 	margin: 0px;
 }
 
+
+
+
+
+
+
+
+
 /*Portfolio section*/
 
 #portfolio-container{
@@ -412,6 +430,7 @@ background-color: white;
     background-color: #80808078;
     color: white;
 }
+
 
 /*contact section*/
 
